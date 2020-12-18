@@ -4,6 +4,7 @@ import Logo from "./Logo";
 import ContentLoading from "./ContentLoading";
 import ParticlesBounce from "./ParticlesBounce";
 import ParticlesRandom from "./ParticlesRandom";
+import Loader from "./Loader";
 
 function App() {
 	return (
@@ -12,10 +13,11 @@ function App() {
 			{/* <Logo /> */}
 			{/* <Counter /> */}
 			{/* <ContentLoading /> */}
-			<h2>Particles Bounce</h2>
+			{/* <h2>Particles Bounce</h2>
 			<ParticlesBounce />
 			<h2>Particles Random</h2>
-			<ParticlesRandom />
+			<ParticlesRandom /> */}
+			<Loader />
 		</div>
 	);
 }
