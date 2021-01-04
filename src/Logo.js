@@ -13,13 +13,22 @@ const Logo = () => {
 				option={{
 					file: logoSVG,
 					animTimingFunction: "EASE",
-					type: "delayed",
-					onReady: console.log,
+					type: "scenario",
+					// duration: 200,
 				}}
 				style={{ height: "300px", width: "300px" }}
 				callback={console.log}
 			/>
-			<ReactVivus
+			{/* <ReactVivus
+				id="foo"
+				option={{
+					file: svg,
+					animTimingFunction: "EASE",
+					type: "oneByOne",
+				}}
+				style={{ height: "300px", width: "300px" }}
+			/> */}
+			{/* <ReactVivus
 				id="foo"
 				option={{
 					file: svg,
@@ -27,7 +36,7 @@ const Logo = () => {
 					type: "delayed",
 				}}
 				style={{ height: "300px", width: "300px" }}
-			/>
+			/> */}
 		</div>
 	);
 };

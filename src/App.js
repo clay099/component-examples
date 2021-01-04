@@ -10,14 +10,14 @@ function App() {
 	return (
 		<div className="App">
 			<h1>Basic Components</h1>
-			{/* <Logo /> */}
+			<Logo />
 			{/* <Counter /> */}
 			{/* <ContentLoading /> */}
 			{/* <h2>Particles Bounce</h2>
 			<ParticlesBounce />
 			<h2>Particles Random</h2>
 			<ParticlesRandom /> */}
-			<Loader />
+			{/* <Loader /> */}
 		</div>
 	);
 }
